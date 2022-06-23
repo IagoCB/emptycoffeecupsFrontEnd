@@ -149,8 +149,7 @@ export default function Login() {
                         required
                         fullWidth
                         variant="outlined"
-                        label="Email"
-                        disableRipple
+                        label="Email"                        
                         sx={styles.txtField}
                     />
                     <TextField
@@ -158,8 +157,7 @@ export default function Login() {
                         required
                         fullWidth
                         variant="outlined"
-                        label="Senha"
-                        disableRipple
+                        label="Senha"                        
                         sx={styles.txtField}
                         type = "password"
                     />

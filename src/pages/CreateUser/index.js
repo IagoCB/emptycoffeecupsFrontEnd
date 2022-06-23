@@ -147,8 +147,7 @@ export default function CreateUser() {
               required
               fullWidth
               variant="outlined"
-              label="E-mail"
-              disableRipple
+              label="E-mail"              
               sx={styles.txtField}
             />
             <TextField
@@ -156,8 +155,7 @@ export default function CreateUser() {
               required
               fullWidth
               variant="outlined"
-              label="Nome"
-              disableRipple
+              label="Nome"              
               sx={styles.txtField}
             />
             <TextField
@@ -165,8 +163,7 @@ export default function CreateUser() {
               required
               fullWidth
               variant="outlined"
-              label="Senha"
-              disableRipple
+              label="Senha"              
               sx={styles.txtField}
             />                       
             <Button fullWidth disableRipple sx={styles.boxButtonNew}>

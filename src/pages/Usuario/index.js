@@ -104,8 +104,7 @@ export default function Usuario() {
               required
               fullWidth
               variant="outlined"
-              label="Email"
-              disableRipple
+              label="Email"              
               sx={styles.txtField}
               disabled
           />
@@ -116,8 +115,7 @@ export default function Usuario() {
               required
               fullWidth
               variant="outlined"
-              label="Nome"
-              disableRipple
+              label="Nome"              
               sx={styles.txtField}
           />
         </Box>
@@ -127,8 +125,7 @@ export default function Usuario() {
               required
               fullWidth
               variant="outlined"
-              label="Senha"
-              disableRipple
+              label="Senha"              
               sx={styles.txtField}
           />
         </Box>                      
